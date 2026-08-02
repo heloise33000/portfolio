@@ -1,1 +1,149 @@
+/* General style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: "Arial", sans-serif;
+line-height: 1.6;
+color: #222;
+background-color: #f8f9fb;
+}
+
+/* Header */
+
+header {
+min-height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: white;
+padding: 40px;
+}
+
+header h1 {
+font-size: 3rem;
+color: #0b1f3a;
+margin-bottom: 15px;
+}
+
+header h2 {
+font-size: 1.6rem;
+color: #3b4d66;
+font-weight: normal;
+}
+
+header p {
+margin-top: 10px;
+font-size: 1.1rem;
+}
+
+header a {
+margin-top: 30px;
+padding: 12px 30px;
+background-color: #0b1f3a;
+color: white;
+text-decoration: none;
+border-radius: 30px;
+transition: 0.3s;
+}
+
+header a:hover {
+background-color: #b22222;
+}
+
+/* Sections */
+
+section {
+max-width: 1000px;
+margin: 60px auto;
+padding: 40px;
+background: white;
+border-radius: 15px;
+}
+
+section h2 {
+color: #0b1f3a;
+font-size: 2rem;
+margin-bottom: 25px;
+border-left: 5px solid #b22222;
+padding-left: 15px;
+}
+
+/* Text */
+
+p {
+margin-bottom: 15px;
+}
+
+/* Skills */
+
+ul {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 15px;
+list-style: none;
+}
+
+li {
+background: #f1f3f6;
+padding: 15px;
+border-radius: 10px;
+}
+
+/* Projects */
+
+article {
+margin-bottom: 30px;
+padding: 25px;
+border-left: 3px solid #0b1f3a;
+}
+
+article h3 {
+color: #b22222;
+margin-bottom: 10px;
+}
+
+/* CV button */
+
+#cv a {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 25px;
+background-color: #0b1f3a;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+padding: 40px;
+color: #555;
+font-style: italic;
+}
+
+/* Responsive mobile */
+
+@media (max-width: 700px) {
+
+```
+header h1 {
+    font-size: 2.2rem;
+}
+
+section {
+    margin: 25px 15px;
+    padding: 25px;
+}
+```
+
+}
 
