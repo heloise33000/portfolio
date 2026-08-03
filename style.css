@@ -940,19 +940,23 @@ p {
 
     nav {
 
-    position:relative;
+        position:relative;
 
-    flex-direction:column;
+        flex-direction:column;
 
-    gap:20px;
+        gap:20px;
 
-}
-.hero {
+    }
 
-    padding-top:80px;
 
-    min-height:auto;
-   
+    .hero {
+
+        padding-top:80px;
+
+        min-height:auto;
+
+    }
+
 
     nav ul {
 
@@ -1008,8 +1012,6 @@ p {
 
 
 }
-
-
 
 @media(max-width:500px){
 
