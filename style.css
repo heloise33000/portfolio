@@ -940,12 +940,19 @@ p {
 
     nav {
 
-        flex-direction:column;
+    position:relative;
 
-        gap:20px;
+    flex-direction:column;
 
-    }
+    gap:20px;
 
+}
+.hero {
+
+    padding-top:80px;
+
+    min-height:auto;
+   
 
     nav ul {
 
